@@ -18,7 +18,7 @@ public class SearchThread extends Thread{
             for (Integer i: numArray) {
                 // System.out.println(Thread.currentThread().getName() + "> Looking at " + i);
                 if (i == toSearch) {
-                    System.out.println(Thread.currentThread().getName() + "> Found " + toSearch);
+                    System.out.println("Exercise 3> " + Thread.currentThread().getName() + "> Found " + toSearch);
                     return;
                 }
             }

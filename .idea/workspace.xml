@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9368f8e6-7542-41cf-b401-ec1cfa9c906e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParallelSearch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise3/SearchThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise3/TwoThreadParallelSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise4/MultiThreadParallelSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise4/SearchThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise5/MultiThreadConcurrentSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise5/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise3/SearchThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise3/SearchThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise4/ChunkSplitter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise4/MultiThreadParallelSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise4/MultiThreadParallelSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise4/SearchThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise4/Searcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ericm/Downloads/fernando.villamarin_P1/P1_fernando.villamarin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eric Macià/Downloads/fernando.villamarin_P1/P1_fernando.villamarin/P1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="exercise3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercise5" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,6 +88,8 @@
       <workItem from="1667561766628" duration="1930000" />
       <workItem from="1667564164392" duration="625000" />
       <workItem from="1667569872880" duration="5767000" />
+      <workItem from="1667644284103" duration="4843000" />
+      <workItem from="1668445726334" duration="1988000" />
     </task>
     <servers />
   </component>
