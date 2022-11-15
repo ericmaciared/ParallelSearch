@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9368f8e6-7542-41cf-b401-ec1cfa9c906e" name="Changes" comment="Finished exercise 5.">
-      <change afterPath="$PROJECT_DIR$/src/exercise7/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise7/MultiThreadRecursiveMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise3/SearchThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise3/SearchThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise7/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise7/MultiThreadRecursiveMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7/MultiThreadRecursiveMergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -121,7 +122,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise7/MultiThreadRecursiveMergeSort.java</url>
-          <line>50</line>
+          <line>59</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

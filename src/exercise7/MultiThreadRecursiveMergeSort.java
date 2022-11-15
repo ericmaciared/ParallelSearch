@@ -1,5 +1,6 @@
 package exercise7;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +10,7 @@ import java.util.List;
 
 public class MultiThreadRecursiveMergeSort implements Runnable{
     // Fix max amount of depth
-    private final int maxDepth = 4;
+    private final int maxDepth = 5;
     private final int depth;
     private List<Integer> numArray;
     public MultiThreadRecursiveMergeSort(List <Integer> numArray, int depth) {
@@ -31,9 +32,17 @@ public class MultiThreadRecursiveMergeSort implements Runnable{
         // Calculate its mid point
         int midPoint = numArray.size() / 2;
 
+        /*
+        System.out.print(Thread.currentThread().getName() + "> ");
+        for (Integer i: numArray) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        */
+
         // Create two threads to run array halves and increment depth
-        MultiThreadRecursiveMergeSort left = new MultiThreadRecursiveMergeSort(numArray.subList(0, midPoint-1), depth+1);
-        MultiThreadRecursiveMergeSort right = new MultiThreadRecursiveMergeSort(numArray.subList(midPoint, numArray.size()-1), depth+1);
+        MultiThreadRecursiveMergeSort left = new MultiThreadRecursiveMergeSort(numArray.subList(0, midPoint), depth+1);
+        MultiThreadRecursiveMergeSort right = new MultiThreadRecursiveMergeSort(numArray.subList(midPoint, numArray.size()), depth+1);
         Thread leftThread = new Thread(left);
         Thread rightThread = new Thread(right);
 

@@ -12,8 +12,8 @@ public class MergeSort {
         int midPoint = numArray.size() / 2;
 
         // Divide array and sort
-        List<Integer> left = MergeSort.mergeSort(numArray.subList(0, midPoint-1));
-        List<Integer> right = MergeSort.mergeSort(numArray.subList(midPoint, numArray.size()-1));
+        List<Integer> left = MergeSort.mergeSort(numArray.subList(0, midPoint));
+        List<Integer> right = MergeSort.mergeSort(numArray.subList(midPoint, numArray.size()));
 
         // Merge array
         numArray = merge(numArray, left, right);
@@ -22,7 +22,6 @@ public class MergeSort {
     }
 
     public static List<Integer> merge(List<Integer> numArray, List<Integer> left, List<Integer> right) {
-        System.out.println("Merging");
         numArray = new ArrayList<Integer>();
         int li = 0, ri = 0;
 
@@ -37,11 +36,6 @@ public class MergeSort {
         // Add reminders
         while (li < left.size()) numArray.add(left.get(li++));
         while (ri < right.size()) numArray.add(right.get(ri++));
-
-        for (Integer i : numArray) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
 
         return numArray;
     }
