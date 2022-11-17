@@ -13,7 +13,7 @@ public class Main {
     static int arraySize = 1;
     static int toSearch = 6;
     static int maxThreads = 16;
-    static int maxTestingRounds = 5;
+    static int maxTestingRounds = 7;
     static long startTime, endTime, durationMillis;
     public static void main(String[] args) {
         // Exercise 3
@@ -32,6 +32,8 @@ public class Main {
         arraySize = 1;
 
         for (int testRound = 1; testRound < maxTestingRounds; testRound++) {
+            arraySize *= 10;
+            toSearch = new Random().nextInt(arraySize);
             for (int numThreads = 2; numThreads < maxThreads; numThreads++) {
                 int[] numArray = createRandomizedArray(arraySize);
 
@@ -54,21 +56,21 @@ public class Main {
         }
 
         // Show results
-        arraySize = 1;
+        arraySize = 10;
+        int par = 0;
+        int con = 0;
         for (int testRound = 1; testRound < maxTestingRounds; testRound++) {
-            arraySize+=10;
-            for (int numThreads = 2; numThreads < maxThreads; numThreads++) {
-                System.out.println("Array Size: " + arraySize + " Number of Threads: ");
-                System.out.print("\nParallel Results>  ");
-                for (Long l: parallelResults) System.out.print(l + " - ");
-                System.out.print("\nConcurrent Results> ");
-                for (Long l: concurrentResults) System.out.print(l + " - ");
-            }
+            arraySize*=10;
+
+            System.out.println("\nArray Size: " + arraySize);
+            System.out.print("Thread number:      ");
+            for (int numThreads = 2; numThreads < maxThreads; numThreads++) System.out.print(numThreads + " - ");
+            System.out.print("\nParallel Results:   ");
+            for (int numThreads = 2; numThreads < maxThreads; numThreads++) System.out.print(parallelResults.get(par++) + " - ");
+            System.out.print("\nConcurrent Results: ");
+            for (int numThreads = 2; numThreads < maxThreads; numThreads++) System.out.print(concurrentResults.get(con++) + " - ");
+            System.out.println();
         }
-
-
-
-
     }
 
     private static void exercise7() {
@@ -98,7 +100,7 @@ public class Main {
         }
 
         // Show results
-        System.out.print("Array Size>           ");
+        System.out.print("\nArray Size>           ");
         arraySize = 1;
         for (int i = 1; i < maxTestingRounds; i++) {
             arraySize *= 10;

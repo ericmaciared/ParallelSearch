@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9368f8e6-7542-41cf-b401-ec1cfa9c906e" name="Changes" comment="Finished exercise 5.">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="9368f8e6-7542-41cf-b401-ec1cfa9c906e" name="Changes" comment="Add statistics, missing show of results for exercise 4 and 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise7/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise7/MultiThreadRecursiveMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7/MultiThreadRecursiveMergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Eric Macià/Downloads/fernando.villamarin_P1/P1_fernando.villamarin/P1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -88,6 +84,9 @@
       <workItem from="1667644284103" duration="4843000" />
       <workItem from="1668445726334" duration="4609000" />
       <workItem from="1668501245404" duration="2661000" />
+      <workItem from="1668520250061" duration="2070000" />
+      <workItem from="1668523635379" duration="2264000" />
+      <workItem from="1668676550726" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Finished exercise 5.">
       <created>1668447762151</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668447762151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add statistics, missing show of results for exercise 4 and 5">
+      <created>1668516078726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668516078726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished exercise 5." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished exercise 5." />
+    <MESSAGE value="Add statistics, missing show of results for exercise 4 and 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add statistics, missing show of results for exercise 4 and 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
